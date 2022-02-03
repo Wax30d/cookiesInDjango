@@ -7,5 +7,5 @@ from django.http import HttpResponse
 
 def setcookie(request):
     html = HttpResponse("<h1>Django Tutorial</h1>")
-    html.set_cookie('From Cooker Wax30d', 'Hello this is your Cookies', max_age=None)
+    html.set_cookie('Wax30d', 'Hello this is your Cookies', max_age=None)
     return html
